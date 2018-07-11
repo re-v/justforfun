@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 for the reason to start the test .
 it's just for fun!
+=======
+test
+new1
+>>>>>>> d6854c8b3f7940153629f6a5db9bf206353641d9
