@@ -1,7 +1,2 @@
-<<<<<<< Updated upstream
-test
-=======
-test
-new1
-test function stashing
->>>>>>> Stashed changes
+for the reason to start the test .
+it's just for fun!
