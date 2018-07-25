@@ -1,0 +1,20 @@
+html:
+<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="general_bank">
+                                                银行总行 <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="controls">
+                                                <select name="general_bank" id="general_bank"  class="form-control">
+                                                    <option value="">-- 请选择银行总行 --</option>
+                                                    {% for i in base.BANK_STATUS %}
+                                                        <option value="{{ i }}">{{ i }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+views:
+            if general_bank:
+                base.general_bank = int(tuple(general_bank)[1])
